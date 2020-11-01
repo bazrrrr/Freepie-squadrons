@@ -5,7 +5,7 @@ if starting:
 		vJoy[0].x = 0
 		vJoy[0].y = 0
 		autocpeed = 30 #update rate (5-75 seems best)
-		joynum = 2 #blend in your joystick/gamepad. Change the number if you multiple controllers to get the one you want
+		joynum = 0 #blend in your joystick/gamepad. Change the number if you multiple controllers to get the one you want
 		system.setThreadTiming(TimingTypes.HighresSystemTimer)
 		system.threadExecutionInterval = autocpeed
 		kbmousesense = 1500 # mouse reponsiveness with keyboard press

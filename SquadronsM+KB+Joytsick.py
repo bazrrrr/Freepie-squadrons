@@ -53,6 +53,9 @@ vJoy[0].setButton(0, mouse.leftButton)
 vJoy[0].setButton(1, mouse.rightButton)
 vJoy[0].setButton(2, mouse.middleButton)
 
+# uncheck this if you want to map real button joystick buttons to vjoy buttons, copy and paste and edit the numbers in the () normal brackets for the different buttons.
+# vJoy[0].setButton(10, joystick[joynum].getDown(10))
+
    
 if keyboard.getKeyDown(Key.UpArrow):
 	vJoy[0].y = -Int16.MaxValue + (mouse.deltaY*kbmousesense)
